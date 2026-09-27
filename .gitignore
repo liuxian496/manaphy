@@ -1,0 +1,13 @@
+node_modules/
+
+# 登录态 cookie，等同于凭据，绝不可提交
+.auth/
+
+.env
+.env.local
+
+playwright-report/
+test-results/
+blob-report/
+results.xml
+playwright/.cache/
