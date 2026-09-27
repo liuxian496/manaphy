@@ -1,0 +1,26 @@
+{
+    "name": "manaphy",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "playwright test",
+      "test:ui": "playwright test --ui",
+      "test:headed": "playwright test --headed",
+      "test:debug": "playwright test --debug",
+      "codegen": "playwright codegen",
+      "report": "playwright show-report",
+      "typecheck": "tsc --noEmit"
+    },
+    "keywords": [],
+    "author": "弗特马克贝因",
+    "license": "Apache-2.0",
+    "type": "module",
+    "devDependencies": {
+      "@playwright/test": "^1.63.0",
+      "@types/node": "^22.20.2",
+      "dotenv": "^17.4.2",
+      "typescript": "^7.0.2"
+    }
+  }
+  
